@@ -1,0 +1,59 @@
+name: resirutas
+description: "ResiRutas es una innovadora aplicación móvil que revoluciona la forma en que se gestionan las rutas de recolección de residuos sólidos urbanos (RSU). Con ResiRutas, optimiza tus rutas de recolección utilizando tecnología de vanguardia, GPS y comunicaciones 4G para ofrecer una experiencia eficiente y amigable con el medio ambiente. Simplifica la recolección de basura en tu comunidad con ResiRutas, tu compañero en la gestión inteligente de residuos urbanos."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cloud_firestore: ^4.17.0
+  firebase_database: ^10.5.2
+  geolocator: ^11.0.0
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.1
+  cupertino_icons: ^1.0.8
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.20.0
+  flutter_mapbox_navigation: ^0.2.2
+  permission_handler: ^11.3.1
+  flutter_svg: ^2.0.10+1
+  http: ^1.2.1
+  url_launcher: ^6.2.6
+  flutter_ringtone_player: ^3.2.0
+  flutter_local_notifications: ^17.1.2
+  pathfinding: ^3.0.1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/Logistics-amico.svg
+    - assets/Curious-pana.svg
+    - assets/Newsletter-pana.svg
+    - assets/sounds/sound_alert.mp3
+    - assets/recolector.svg
+    - assets/recolectores.svg
+    - assets/tachos.svg
+    - assets/trashas.svg
+    - assets/trashass.svg
+    - assets/trashassss.svg
+    - assets/logo_utn.svg
+    - assets/logo_utn2.svg
+
+
