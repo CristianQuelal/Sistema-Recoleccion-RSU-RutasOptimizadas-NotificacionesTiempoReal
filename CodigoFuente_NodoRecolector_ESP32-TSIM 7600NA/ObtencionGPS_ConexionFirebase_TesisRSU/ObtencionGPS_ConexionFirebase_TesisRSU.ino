@@ -272,8 +272,6 @@ void loop() {
                             &year2, &month2, &day2, &hour2, &min2, &sec2)) {      //Se intenta obtener las coordenadas GPS del módem
               //Si se obtienen con éxito las coordenadas, se muestran en el monitor serial
               DBG("Coordenadas Obtenidas: ""Latitude:", String(lat2, 8), "° \tLongitude:", String(lon2, 8), " °");
-              // Convertir la velocidad de m/s a km/h
-              //float speed_kmh = speed2 * 3.6;
               DBG("Altitud:", alt2, " m");
               DBG("Velocidad:", speed2, " km/h\tPrecicion:", accuracy2, " m");
               //Formatear la fecha y la hora en strings
