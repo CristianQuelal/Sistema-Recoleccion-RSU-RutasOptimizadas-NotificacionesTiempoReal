@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDQFJutJMDZ867YxiTW3GoBi_pU4OVmo1M',
+    apiKey: 'Ingresar API KEY',
     appId: '1:577573442468:android:54c3f8fb0792b630c12731',
     messagingSenderId: '577573442468',
     projectId: 'residuos-solidos-urbanos2023',
@@ -60,7 +60,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDJy8asK3ExKwtJlGzuxXJgJjEsq116g50',
+    apiKey: 'Ingresar API KEY',
     appId: '1:577573442468:ios:83cd2abf3c4f7ed3c12731',
     messagingSenderId: '577573442468',
     projectId: 'residuos-solidos-urbanos2023',
@@ -70,7 +70,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyDJy8asK3ExKwtJlGzuxXJgJjEsq116g50',
+    apiKey: 'Ingresar API KEY',
     appId: '1:577573442468:ios:83cd2abf3c4f7ed3c12731',
     messagingSenderId: '577573442468',
     projectId: 'residuos-solidos-urbanos2023',
@@ -80,7 +80,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyDkWZDzV8rc_uX4BgDkafUtef-9B_SHbvQ',
+    apiKey: 'Ingresar API KEY',
     appId: '1:577573442468:web:ec1ac07533eeeb12c12731',
     messagingSenderId: '577573442468',
     projectId: 'residuos-solidos-urbanos2023',
