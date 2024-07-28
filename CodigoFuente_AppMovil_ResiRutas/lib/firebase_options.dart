@@ -41,7 +41,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDkWZDzV8rc_uX4BgDkafUtef-9B_SHbvQ',
+    apiKey: 'Ingresar API KEY',
     appId: '1:577573442468:web:3229bd45d8d6d645c12731',
     messagingSenderId: '577573442468',
     projectId: 'residuos-solidos-urbanos2023',
